@@ -15,15 +15,21 @@
 }
 
 body{
+    background-color: var(--light_gray);
+    font-family: var(--font);
+    font-size: 15px;
+
+   
+
+}
+main{
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: var(--light_gray);
-    min-height: 100vh;
-    font-family: var(--font);
-    font-size: 15px;
+    min-height: 95vh;
     min-width: 370px;
     max-width: 1440px;
+   
 }
 
 
@@ -62,4 +68,20 @@ body{
 .text p{
     color: var(--grayish_blue);
     font-weight: 400;
+}
+
+.attribution {
+    text-align: center;
+    color: var(--dark_blue);
+   
+}
+.attribution a{
+    color: var(--dark_blue);
+    text-decoration: none;
+   
+}
+.attribution a:hover{
+    color: var(--grayish_blue);
+    text-decoration: underline;
+
 }
